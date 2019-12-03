@@ -1,7 +1,10 @@
 language: go
+sudo: false
 
 go:
-  - 1.8.x
-  - tip
+  - stable
 
-sudo: false
+env:
+  - GO111MODULE=on
+
+install: true
